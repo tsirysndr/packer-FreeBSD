@@ -1,0 +1,9 @@
+*.box
+.DS_Store
+.Spotlight-V100
+.Trashes
+.vagrant/
+builds/
+packer_cache/
+output-virtualbox-iso/
+variables.pkrvars.hcl
