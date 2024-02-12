@@ -44,7 +44,7 @@ jobs:
         run: |
           packer build -only=qemu.freebsd .
           ls -la
-          ls -la builds
+          ls -la output-freebsd
         env:
           ntpdate_hosts: ntp.ubuntu.com
 
